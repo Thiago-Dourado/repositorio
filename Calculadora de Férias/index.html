@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferias</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div id="calc">
+        <div id="clear" onclick="onClear()">X</div>
+    <h1 id="title">Calculadora de Férias</h1>
+    <h3> Insira seu salário de cada mês: <br>
+        <input type="number" id="sal" class="box" placeholder="Salário do 1°mes" onkeydown="verificarEnter(event)"></h3> <br>
+    <h3> Insira a quantidade de meses trabalhados: <br>
+        <input type="number" id="mtb" class="box" onkeydown="verificarEnter(event)"></h3>
+    <button id="conf" onclick="calcular()">Calcular</button>
+    <p id="res"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    border: 0px;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+body{
+    padding-top: 30px;
+    background-image:linear-gradient(45deg, #ffffff, #88a891 );
+    height: 100dvh;
+}       
+#box{
+    background-color: #afd0b8;
+    margin: auto;
+    text-align: center;
+    min-height: 220px;
+    max-width: 400px;
+    border-radius: 15px ;
+    box-shadow: 1px 1px 2px #88a891;
+}
+#text{
+    text-align: right;
+    padding: 15px ;
+    color: white;
+    line-height: 1.5em;
+}   
+header{
+    background-color: #88a891;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 1px 1px 2px #88a891;
+}
+.num{
+    text-align: right;
+    width: 150px;
+    background-color: #9cbca5;
+    color: white;
+    border-radius: 15px;
+    padding-right: 15px;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.9em ;  
+}
+.solve{
+    min-height: 25px;
+    min-width: 80px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 2px;
+}
+.solve:hover{
+    background-color: #9cbca5;
+    color: white;
+    cursor: pointer;
+}
+
+.res{
+    background-color: #88a891;
+    max-width: 370px;
+    min-height: 50px;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 50px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px #b8ebc798;
+    visibility: hidden;
+    color: white;
+}
+
+.res.ani{ 
+    animation: fadeIn 2s;
+    visibility: visible;
+    }
+
+@keyframes fadeIn {
+    0% {transform: translateX(-50%); opacity : 0;}  
+    50% {transform: translateX(0%); opacity : 0.5;}  
+    100% {transform: translateX(0%); opacity : 1;}    
+}
+
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+    -moz-appearance: text;
+    appearance: text;
+    caret-color: auto;
+}
+
+#check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p{
+    color: black;
+    display: inline-block;
+    min-height: 21px;
+    min-width: 90px;
+    border-radius: 5px;
+    background-color: white;;
+    padding: 2px;
+    cursor: default;
+}
+
+#entrada{
+    min-height: 25px;
+    min-width: 25px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}

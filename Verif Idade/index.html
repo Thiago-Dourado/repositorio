@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="titulo">
+        <h1>Verificador de idade</h1>  
+    </div>
+
+    <div  id="verificador">
+        <div>
+            <p>Ano de nascimento 
+                <input type="number" id="idade">
+            </p>
+            <p>Sexo
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="radsex">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="radsex">Feminino </label>
+            </p>
+                <input type="button" value="Verificar" id="verif" onclick="proc()">
+        </div>
+        <div>
+            <div id="res">s</div>
+            <img src="download.png" alt="jovem" id="img">
+        </div>
+    </div>
+
+    <footer>
+        <p>@thiagodouradoo_</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

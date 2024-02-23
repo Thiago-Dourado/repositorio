@@ -1,0 +1,29 @@
+@charset "UTF-8";   
+
+*{
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+}
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(135, 199, 255);
+}
+
+.meio{
+    background-color: white;
+    border-radius: 25px;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    padding: 25px;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}

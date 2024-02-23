@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de impostos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <header><p>Simulador de financiamento</p></header>
+        <div id="text">
+
+            Periodo (n) <input type="text" class="num" id="n"> 
+            <br>
+            Taxa de Juros (i) <input type="text" class="num" id="i" onkeydown="verificarEnter(event)" onkeyup="percent(this)" placeholder="%">
+            <br> 
+            Prestações (pmt) <input type="text" class="num" id="pmt" onkeydown="verificarEnter(event)" onkeyup="mascara(this)" placeholder="R$">
+            <br>
+            Valor Presente (pv) <input type="text" class="num" id="pv" onkeydown="verificarEnter(event)" 
+            onkeyup="mascara(this)" placeholder="R$">
+            <br>
+            Valor Futuro (fv) <input type="text" class="num" id="fv" onkeydown="verificarEnter(event)" 
+            onkeyup="mascara(this)" placeholder="R$">
+            <br>
+        </div>
+        <div id="check">
+            <div class="p">Entrada:</div>
+            <label>
+                <input type="checkbox" id="entrada">
+            </label>
+        <button class="solve" onclick="calcular()"> Calcular </button>
+        <button class="solve" onclick="limp()"> Limpar </button> 
+        </div>
+    </div>
+        <div class="res" id="res"></div>
+        <div class="res" id="res2"></div>
+    <script src="script.js"></script>
+</body>
+</html>

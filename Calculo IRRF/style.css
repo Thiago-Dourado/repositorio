@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    border: 0px;
+    font-family: sans-serif;
+}
+
+.head{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-image: linear-gradient(45deg, white, green);
+    height: 100dvh;
+}
+
+.caixa{
+background-color: white;    
+margin: auto;
+text-align: center;
+max-width: 500px;
+min-height: 500px;
+border-radius: 15px;
+box-shadow: 1px 2px 4px black;
+padding-top: 15px;
+}
+
+#salario{
+    line-height: 0.9em;
+    width: 100px;
+    height: 40px;
+    font-size: 0.9em;
+}
+
+.titulo{
+    line-height: 1em;
+    font-weight: 700px;
+    color: green;
+}
+
+.s1{
+    color: green;
+    border-top: 50px;
+}
+
+#botao{
+    background-color: white;
+    color: green;
+    font-weight: 800;
+    padding: 15px;
+    font-size: 0.6em;   
+    border-radius: 15px;
+}
+
+#botao:hover{
+    background-color: green;
+    color: white;
+    font-weight: 800;
+    padding: 15px;
+    font-size: 0.6em;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#sal,#aliq,#res,#liq{
+    font-size: 1.2em;
+    font-weight: 600;
+    min-width: 100px;
+    min-height: 25px;
+}
