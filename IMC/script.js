@@ -15,7 +15,7 @@ function solve(){
         res2.innerHTML = `<p>Seu IMC é de ${imc}, você está <span style="color: red;">ABAIXO DO PESO</span>.</p>` 
     }
     else if(imc >= 18.5 && imc <= 24.99){
-        res2.innerHTML = `<p>Seu IMC é de ${imc}, você está <p id="sla">NO PESO ADEQUADO</p>.</p>`
+        res2.innerHTML = `<p>Seu IMC é de ${imc}, você está <span style="color: green;">NO PESO ADEQUADO</span>.</p>`
     }
 
     else if(imc >= 25 && imc <=29.99){
